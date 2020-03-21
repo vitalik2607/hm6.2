@@ -1,0 +1,71 @@
+body{
+height: 580px;
+left: 0px;
+top: 0px;
+
+background: #F4F4F4;
+}
+.title{
+    font-family: 'Proxima Nova';
+font-size: 39px;
+line-height: 44px;
+text-align: center;
+color: #313A59;
+margin-top: 30px;
+margin-bottom: 24px;
+
+}
+.subtitle{
+    font-family: 'Proxima Nova';
+font-size: 18px;
+line-height: 22px;
+color: #313A59;
+padding-left: 15px;
+}
+ul{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+}
+li{
+    display: inline;
+    font-family: 'Proxima Nova';
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+padding-left: 15px;
+
+color: #626262;
+
+}
+.paragraphe{
+    font-family: Proxima Nova;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #F35D51;
+}
+.link{
+    text-decoration: none;
+}
+.btn{
+width: 210px;
+height: 40px;
+background: #313A59;
+text-align: center;
+margin-left: 30px;
+}
+a{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-decoration: none;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.btn:hover{
+    background: #F35D51;
+}
